@@ -3,7 +3,7 @@ extractedDataFolder: extractedData/
 preprocessedDataFolder: preprocData/
 
 repos: 
-  - "test_contributor_feedback": 3
+  - "GitHubClassroomTutorFeedback": 3
 
 
 blacklist:
