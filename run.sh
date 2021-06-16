@@ -1,4 +1,3 @@
-pipenv shell
 cd notebooks
 python -m ipykernel install --user --name mygreatenv --display-name "My Great Env"
 jupyter nbconvert --to notebook --inplace --execute 00_Aggregation.ipynb
