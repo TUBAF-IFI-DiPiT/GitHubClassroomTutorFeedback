@@ -1,0 +1,5 @@
+data/rawData/
+*-checkpoint.ipynb
+*.cpython-38.pyc
+*.p 
+.vscode/
