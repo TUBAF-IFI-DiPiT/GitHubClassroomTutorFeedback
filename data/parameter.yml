@@ -1,0 +1,10 @@
+rawDataFolder: rawData/
+extractedDataFolder: extractedData/
+preprocessedDataFolder: preprocData/
+
+repos: 
+  - "softwareentwicklung_aufgabe3_sose2021": 3
+
+
+blacklist:
+  - "softwareentwicklung_aufgabe3_sose2021_mb"
