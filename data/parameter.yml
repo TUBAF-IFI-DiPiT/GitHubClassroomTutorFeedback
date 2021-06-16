@@ -3,7 +3,7 @@ extractedDataFolder: extractedData/
 preprocessedDataFolder: preprocData/
 
 repos: 
-  - "softwareentwicklung_aufgabe3_sose2021": 3
+  - "test_contributor_feedback": 3
 
 
 blacklist:
