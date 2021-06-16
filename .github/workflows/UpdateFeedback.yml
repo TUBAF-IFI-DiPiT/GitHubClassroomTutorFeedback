@@ -2,8 +2,9 @@ name: UpdateFeedback
 
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   convert_via_pandoc:
