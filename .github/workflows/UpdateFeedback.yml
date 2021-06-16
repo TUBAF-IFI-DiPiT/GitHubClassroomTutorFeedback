@@ -1,0 +1,26 @@
+name: UpdateFeedback
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out current repository
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Install dependencies
+        run: |
+             python -m pip install --upgrade pip
+             pipenv shell
+
+      - name: Run extraction
+        env:
+             TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+             ./run.sh
