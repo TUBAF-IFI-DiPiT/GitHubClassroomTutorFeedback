@@ -9,6 +9,9 @@ jupytext = "*"
 matplotlib = "*"
 seaborn = "*"
 tabulate = "*"
+jupyter = "*"
+nbconvert = "*"
+ipykernel = "*"
 
 [dev-packages]
 
