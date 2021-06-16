@@ -7,13 +7,11 @@ on:
     branches: [ main ]
 
 jobs:
-  convert_via_pandoc:
+  extract_github_activities:
     runs-on: ubuntu-latest
     steps:
       - name: Check out current repository
         uses: actions/checkout@v2
-        with:
-          ref: master
 
       - name: Install dependencies
         run: |
