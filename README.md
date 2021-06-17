@@ -1,14 +1,5 @@
 # Feedback for tutors
 
-Summarizing the following list of repositories
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-CaMo'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-HeOe'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-Jado'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-Jury'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-LoTe'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-Ma-Vi'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-RoMa'
-'Softwareentwicklung_Aufgabe3_SoSe2021_MB-Sola'
 8 repos found!
 
 
@@ -20,7 +11,7 @@ Summarizing the following list of repositories
 
 
 
-/usr/bin/sh: 1: Syntax error: Bad function name
+/usr/bin/sh: 1: Syntax error: word unexpected (expecting ")")
 
 
 ## Working activities
