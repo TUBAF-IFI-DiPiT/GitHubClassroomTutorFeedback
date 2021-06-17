@@ -18,8 +18,6 @@ def aggregateRepoList(dataHandler, github_token):
     relevant_repos = []
     for repo_name in dataHandler.repos:
         git_repo_name = repo_name
-        git_repo_name = "softwareentwicklung_aufgabe3_sose2021_mb-camo"
-        git_repo_owner = "Ifi-Softwareentwicklung-SoSe2021"
         print(git_repo_owner, git_repo_name)
         repo = Utility.get_repo(git_repo_owner, git_repo_name, github_token, dataHandler.basic_folder)
         relevant_repos.append(repo)
@@ -95,7 +93,7 @@ if __name__ == "__main__":
     project_parameter_file = "parameter.yml"
 
     dataHandler = DataHandling(project_folder_name, project_parameter_file)
-    github_token = os.environ['TOKEN']
+    github_token = os.environ['EXT_TOKEN']
     relevant_repos = aggregateRepoList(dataHandler, github_token)
     print("{} repos found!".format(len(relevant_repos)))
 
