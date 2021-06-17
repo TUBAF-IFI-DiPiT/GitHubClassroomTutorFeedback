@@ -5,13 +5,12 @@
 
 ## Working times
 
+![image](https://github.com/SebastianZug/GitHubClassroomTutorFeedback/blob/main/images/heatmap.png)
+
 
 
 ![png](02_FeedbackGeneration_files/02_FeedbackGeneration_6_0.png)
 
-
-
-/usr/bin/sh: 1: Syntax error: word unexpected (expecting ")")
 
 
 ## Working activities
