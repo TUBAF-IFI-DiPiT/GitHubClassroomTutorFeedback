@@ -34,6 +34,7 @@ jobs:
              git config --local user.name "GitHub Action"
              git status
              git add README.md
+             git add ./images/heatmap.png
              git commit -m "Add new statistics" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
