@@ -15,9 +15,19 @@ Summarizing the following list of repositories
 ## Working times
 
 
+---------------------------------------------------------------------------
 
-![png](02_FeedbackGeneration_files/02_FeedbackGeneration_6_0.png)
+NameError                                 Traceback (most recent call last)
 
+<ipython-input-1-ceee4bbbf009> in <module>
+----> 1 anonym_pdCommits['days'] = anonym_pdCommits.commited_at.dt.dayofweek
+2 anonym_pdCommits['hours'] = anonym_pdCommits.commited_at.dt.hour
+3 fig, ax = plt.subplots(figsize=(18,6))
+4 y_axis_labels = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Sonnabend', 'Sonntag']
+5
+
+
+NameError: name 'anonym_pdCommits' is not defined
 
 
 ## Working activities
