@@ -7,4 +7,4 @@ pipenv run jupyter nbconvert --to notebook --inplace --execute 02_FeedbackGenera
 pipenv run jupyter nbconvert --to markdown --TemplateExporter.exclude_input=True 02_FeedbackGeneration.ipynb
 mv ./02_FeedbackGeneration_files/02_FeedbackGeneration_6_0.png ../images/heatmap.png
 sed 's/^[ \t]*//;s/[ \t]*$//' 02_FeedbackGeneration.md > Readme.md
-cp Readme.md ../README.md
+mv Readme.md ../README.md

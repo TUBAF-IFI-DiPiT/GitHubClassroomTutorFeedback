@@ -32,11 +32,9 @@ jobs:
         run: |
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
-             git status
              git add README.md
              git add ./images/heatmap.png
-             git status
-             git commit -m "Add new statistics"
+             git commit -m "Add new statistics" || echo "No changes to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
