@@ -35,7 +35,7 @@ jobs:
              git status
              git add README.md
              git add ./images/heatmap.png
-             git commit -m "Add new statistics" -a
+             git commit -m "Add new statistics"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
