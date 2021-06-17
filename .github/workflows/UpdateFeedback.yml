@@ -24,6 +24,6 @@ jobs:
 
       - name: Run extraction
         env:
-             TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             TOKEN: ${{ secrets.EXT_TOKEN }}
         run: |
              ./run.sh
