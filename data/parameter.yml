@@ -2,7 +2,7 @@ rawDataFolder: rawData/
 extractedDataFolder: extractedData/
 preprocessedDataFolder: preprocData/
 
-git_repo_owner: Ifi-Softwareentwicklung-SoSe2021
+git_repo_owner: "Ifi-Softwareentwicklung-SoSe2021"
 
 repos: 
   - "Softwareentwicklung_Aufgabe3_SoSe2021_MB-CaMo": 3
