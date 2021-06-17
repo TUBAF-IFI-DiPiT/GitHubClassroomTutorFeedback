@@ -16,7 +16,7 @@ Summarizing the following list of repositories
 
 
 
-![png](notebooks/02_FeedbackGeneration_file/02_FeedbackGeneration_6_0.png)
+![png](02_FeedbackGeneration_files/02_FeedbackGeneration_6_0.png)
 
 
 
