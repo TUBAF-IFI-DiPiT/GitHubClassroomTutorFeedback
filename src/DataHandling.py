@@ -5,13 +5,15 @@ import pickle
 class DataHandling:
 
     def __init__(self, project_folder_name, project_parameter_file):
-        print("Loading parameter file ... " + project_folder_name + project_parameter_file)
+        #print("Loading parameter file ... " + project_folder_name + project_parameter_file)
         with open(project_folder_name + project_parameter_file, "r") as f:
             parameter_yml = yaml.load(f, Loader=yaml.FullLoader)
 
         self.repos = dict((key,d[key]) for d in parameter_yml["repos"] for key in d)
         self.whitelist_pattern = self.repos.keys()
         self.blacklist_pattern = parameter_yml["blacklist"]
+
+        self.git_repo_owner = parameter_yml["git_repo_owner"]
 
         self.basic_folder = Path(project_folder_name, 
                             parameter_yml["rawDataFolder"])

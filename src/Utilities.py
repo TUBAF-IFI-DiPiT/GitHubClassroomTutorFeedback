@@ -6,9 +6,8 @@ def getrepofolder(repo, basic_folder):
 
 def getTeamName(repo, whitelist):
     repo_name = repo.full_name.split('/')[-1]
-    for element in whitelist:
-        if element in repo_name:    
-            return repo_name.replace(element,"")[1:-1]
+    team_name = "".join(repo_name.split('-')[1:])
+    return team_name
     
 def getTaskName(repo):
     repo_name = repo.full_name.split('/')[-1]
