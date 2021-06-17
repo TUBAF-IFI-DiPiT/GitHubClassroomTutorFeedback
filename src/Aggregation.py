@@ -18,6 +18,7 @@ def aggregateRepoList(dataHandler, github_token):
     relevant_repos = []
     for repo_name in dataHandler.repos:
         git_repo_name = repo_name
+        print(git_repo_owner, git_repo_name)
         repo = Utility.get_repo(git_repo_owner, git_repo_name, github_token, dataHandler.basic_folder)
         relevant_repos.append(repo)
     return relevant_repos

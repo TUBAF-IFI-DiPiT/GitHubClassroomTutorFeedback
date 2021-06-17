@@ -1,8 +1,5 @@
 # Feedback for tutors
 
-Loading parameter file ... ../data/parameter.yml
-
-
 Summarizing the following list of repositories
 'Softwareentwicklung_Aufgabe3_SoSe2021_MB-CaMo'
 'Softwareentwicklung_Aufgabe3_SoSe2021_MB-HeOe'
