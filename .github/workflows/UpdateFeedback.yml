@@ -24,7 +24,7 @@ jobs:
 
       - name: Run extraction
         env:
-             TOKEN: ${{ secrets.EXT_TOKEN }}
+             EXT_TOKEN: ${{ secrets.EXT_TOKEN }}
         run: |
              ./run.sh
 
