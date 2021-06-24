@@ -7,10 +7,13 @@ language: en
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/SebastianZug/GitHubClassroomTutorFeedback/blob/main/README.md)
+
 # Github Classroom Monitor
 
-This is a periodically updated summary of Github Classroom activities in the following repositories
+This is a periodically updated summary of Github Classroom activity report covering the following repositories
 
+<!-- data-type="none" -->
 |    | Team name   |   Task nummer | Repository URL                                                                                               |
 |---:|:------------|--------------:|:-------------------------------------------------------------------------------------------------------------|
 |  0 | camo        |             3 | [Link](git://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_mb-camo.git)  |
@@ -24,12 +27,15 @@ This is a periodically updated summary of Github Classroom activities in the fol
 |  8 | svph        |             3 | [Link](git://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_mb-svph.git)  |
 |  9 | vbm         |             3 | [Link](git://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_mb-vbm.git)   |
 
-The students were active during the following hours
+----------------------------------------------------- 
 
-![image](./example/notebooks/F_TimeStatistics.png)
+Last update: 2021-06-24 16:14:46.475252
 
-... and generated the following Github fingerprints.
+## Activity overview
 
+The individual projects can be characterized by the individual fingerprints summarizing the existence and counts of different Github concepts.
+
+<!-- data-type="none" -->
 |    | Team   |   Commits |   Branches |   Issues |   PullRequests |   Releases |
 |---:|:-------|----------:|-----------:|---------:|---------------:|-----------:|
 |  0 | camo   |        11 |          1 |        0 |              1 |          0 |
@@ -43,6 +49,11 @@ The students were active during the following hours
 |  8 | svph   |         1 |          1 |        0 |              0 |          0 |
 |  9 | vbm    |         1 |          1 |        0 |              0 |          0 |
 
------------------------------------------------------ 
+## Working time analysis
 
-Last update: 2021-06-24 15:45:06.485606
+The students commited new versions of the repositories during the following hours:
+
+![image](./example/notebooks/F_TimeStatistics.png)
+
+
+
