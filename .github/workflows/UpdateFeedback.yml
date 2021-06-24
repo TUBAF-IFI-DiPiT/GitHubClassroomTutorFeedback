@@ -28,14 +28,15 @@ jobs:
         env:
              EXT_TOKEN: ${{ secrets.EXT_TOKEN }}
         run: |
-             ./run.sh
+             pipenv run python ./example/src/runGenerator.py -path ./example/parameter.yml
+             mv ./example/feedbackDocument/result.md README.md
 
       - name: Commit files
         run: |
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
              git add README.md
-             git add ./images/heatmap.png
+             git add ./example/feedbackDocument/F_TimeStatistics.png
              git commit -m "Add new statistics" || echo "No changes to commit"
       - name: Push changes
         uses: ad-m/github-push-action@master
