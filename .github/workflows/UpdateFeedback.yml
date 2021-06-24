@@ -28,6 +28,7 @@ jobs:
         env:
              EXT_TOKEN: ${{ secrets.EXT_TOKEN }}
         run: |
+             pipenv run python -m ipykernel install --user --name mygreatenv --display-name "My Great Env"
              pipenv run python ./example/src/runGenerator.py -path ./example/parameter.yml
              mv ./example/feedbackDocument/result.md README.md
 
