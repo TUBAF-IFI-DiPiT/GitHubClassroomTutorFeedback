@@ -5,8 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:   
-    - cron:  '30 5,17 * * *'
+  #schedule:   
+  #  - cron:  '30 5,17 * * *'
 
 jobs:
   extract_github_activities:
