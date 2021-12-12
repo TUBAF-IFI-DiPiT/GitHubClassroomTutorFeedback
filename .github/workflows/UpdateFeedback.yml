@@ -25,13 +25,13 @@ jobs:
              pipenv install
 
       - name: Create env file
-            shell: bash
-            env:
-              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-            run: |
-              touch .env
-              echo ACCESS_TOKEN=$ACCESS_TOKEN >> .env
-              cat .env
+        shell: bash
+        env:
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+            touch .env
+            echo ACCESS_TOKEN=$ACCESS_TOKEN >> .env
+            cat .env
 
       - name: Run generation
         run: |
