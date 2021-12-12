@@ -16,7 +16,7 @@ def main(request_params):
         print("Project folder and data set does not exist!")
     fg = FeedbackGenerator(request_params.parameters)
     print(fg)
-    #fg.run_notebooks()
+    fg.run_notebooks()
     fg.map_results_on_feedback()
 
 
