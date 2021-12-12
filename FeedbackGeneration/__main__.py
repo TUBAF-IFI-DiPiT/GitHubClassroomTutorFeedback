@@ -31,7 +31,7 @@ if __name__ == "__main__":
     request_params = YAML_RequestDefinition(arguments.config_file)
 
     load_dotenv(find_dotenv())
-    github_token = os.getenv("GITHUB_API_TOKEN")
+    github_token = os.getenv("ACCESS_TOKEN")
 
     main(request_params=request_params)
     print("Aus Maus")
