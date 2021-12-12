@@ -24,14 +24,18 @@ jobs:
         run: |
              pipenv install
 
-      - name: Run extraction
-        run: 
-            pipenv run python3 -m github2pandas_manager -path ./example/config.yml
-        env:
-            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Create env file
+            shell: bash
+            env:
+              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+            run: |
+              touch .env
+              echo ACCESS_TOKEN=$ACCESS_TOKEN >> .env
+              cat .env
 
       - name: Run generation
         run: |
+             pipenv run python3 -m github2pandas_manager -path ./example/config.yml
              pipenv run python3 -m FeedbackGeneration -path ./example/config.yml
              mv ./example/feedbackDocument/result.md README.md
 
