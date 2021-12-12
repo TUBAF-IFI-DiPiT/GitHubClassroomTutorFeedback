@@ -14,10 +14,10 @@ def main(request_params):
     if not project_folder:
         print("Project folder and data set does not exist!")
     print("PUNKT 3")
-    fg = FeedbackGenerator(request_params.parameters)
-    print(fg)
-    fg.run_notebooks()
-    fg.map_results_on_feedback()
+    #fg = FeedbackGenerator(request_params.parameters)
+    #print(fg)
+    #fg.run_notebooks()
+    #fg.map_results_on_feedback()
 
 
 if __name__ == "__main__":
