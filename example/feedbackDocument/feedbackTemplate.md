@@ -14,7 +14,7 @@ language: en
 This is a periodically updated summary of Github Classroom activity report covering the following repositories
 
 <!-- data-type="none" -->
-<F_ProjektList.txt>
+<F_ProjectList.txt>
 
 ----------------------------------------------------- 
 
@@ -32,6 +32,3 @@ The individual projects can be characterized by the individual fingerprints summ
 The students commited new versions of the repositories during the following hours:
 
 <F_TimeStatistics.png>
-
-
-

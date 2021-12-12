@@ -25,11 +25,9 @@ jobs:
              pipenv install
 
       - name: Run extraction
-        env:
-             EXT_TOKEN: ${{ secrets.EXT_TOKEN }}
         run: |
-             pipenv run python -m ipykernel install --user --name mygreatenv --display-name "My Great Env"
-             pipenv run python ./example/src/runGenerator.py -path ./example/parameter.yml
+             pipenv run python3 -m github2pandas_manager -path ./example/config.yml
+             pipenv run python3 -m FeedbackGeneration -path ./example/config.yml
              mv ./example/feedbackDocument/result.md README.md
 
       - name: Commit files

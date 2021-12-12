@@ -1,0 +1,39 @@
+project_name: programmingtask_1
+
+#################################################################
+# Folder structure
+
+project_folder: "./example/data/"
+
+#################################################################
+# Repository selection by pattern name
+
+repo_white_pattern:
+  - "programmingtask_1"
+  
+repo_black_pattern: ""    # This means empty list
+
+#################################################################
+# Content definition
+content:
+  - Repository
+  - Version
+  - Issues
+  - PullRequests
+  - Workflows
+  - GitReleases
+  - Users
+
+#################################################################
+
+processing_notebooks_folder: ./example/notebooks/
+
+processing_notebooks:
+  - F_TimeStatistics.ipynb
+  - F_ProjectOverview.ipynb
+  - F_ProjektList.ipynb
+
+#################################################################
+
+feedback_template_file: ./example/feedbackDocument/feedbackTemplate.md
+feedback_result_file: ./example/feedbackDocument/result.md

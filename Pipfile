@@ -12,6 +12,7 @@ tabulate = "*"
 jupyter = "*"
 nbconvert = "*"
 ipykernel = "*"
+github2pandas-manager = "*"
 
 [dev-packages]
 
