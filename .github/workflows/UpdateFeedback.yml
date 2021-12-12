@@ -25,6 +25,8 @@ jobs:
              pipenv install
 
       - name: Run extraction
+        env:
+             ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
              pipenv run python3 -m github2pandas_manager -path ./example/config.yml
              pipenv run python3 -m FeedbackGeneration -path ./example/config.yml
@@ -40,6 +42,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-             github_token: ${{ secrets.EXT_TOKEN }}
+             github_token: ${{ secrets.ACCESS_TOKEN }}
              branch: main
              
