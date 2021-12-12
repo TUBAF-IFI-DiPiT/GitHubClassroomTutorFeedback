@@ -27,6 +27,7 @@ jobs:
       - name: Run extraction
         env:
              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+             TEST: ${{secrets.TEST}}
         run: |
              pipenv run python3 -m github2pandas_manager -path ./example/config.yml
              pipenv run python3 -m FeedbackGeneration -path ./example/config.yml
