@@ -13,16 +13,13 @@ def main(request_params):
     project_folder = Path(request_params.parameters.project_folder)
     if not project_folder:
         print("Project folder and data set does not exist!")
-    print("PUNKT 3")
-    #fg = FeedbackGenerator(request_params.parameters)
-    #print(fg)
-    #fg.run_notebooks()
-    #fg.map_results_on_feedback()
+    fg = FeedbackGenerator(request_params.parameters)
+    print(fg)
+    fg.run_notebooks()
+    fg.map_results_on_feedback()
 
 
 if __name__ == "__main__":
-    print("PUNKT 1")
-    
     parser = argparse.ArgumentParser(description='Process command line arguments.')
     parser.add_argument('-path', dest='config_file',
                         type=utilities.check_file_path,
@@ -31,10 +28,4 @@ if __name__ == "__main__":
 
     arguments = parser.parse_args()
     request_params = YAML_RequestDefinition(arguments.config_file)
-
-    github_token = os.environ("ACCESS_TOKEN")
-    print("--------------------------------")
-    print(os.environ("ACCESS_TOKEN"))
-    print("PUNKT 2")
     main(request_params=request_params)
-    print("Aus Maus")
