@@ -32,9 +32,9 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
     request_params = YAML_RequestDefinition(arguments.config_file)
 
-    github_token = os.getenv("ACCESS_TOKEN")
+    github_token = os.environ("ACCESS_TOKEN")
     print("--------------------------------")
-    print(os.getenv("TEST"))
+    print(os.environ("ACCESS_TOKEN"))
     print("PUNKT 2")
     main(request_params=request_params)
     print("Aus Maus")
