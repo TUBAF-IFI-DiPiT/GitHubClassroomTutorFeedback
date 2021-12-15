@@ -6,5 +6,7 @@ data/rawData/
 Versions.db
 example/data/
 *.txt
+example/*.nbconvert.ipynb
+example/result.md
 
 .env

@@ -29,6 +29,7 @@ content:
 processing_notebooks_folder: ./example/notebooks/
 
 processing_notebooks:
+  - P_Preprocessing.ipynb
   - F_TimeStatistics.ipynb
   - F_ProjectOverview.ipynb
   - F_ProjektList.ipynb
