@@ -57,6 +57,10 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
     request_params = YAML_RequestDefinition(arguments.config_file)
     
+    if "TOKEN" in os.environ:
+        print("Token found!")
+        print(os.environ['TOKEN'])
+    
     github_token = os.environ['TOKEN']
     call_github2pandas_manager(request_params=request_params, 
                                github_token=github_token)
