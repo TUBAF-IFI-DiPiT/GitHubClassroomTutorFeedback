@@ -9,7 +9,7 @@ project_folder: "./example/data/"
 # Repository selection by pattern name
 
 repo_white_pattern:
-  - "Softwareentwicklung_Aufgabe3_SoSe2021_Tutors"
+  - "softwareentwicklung_aufgabe3_sose2021_tutors"
   
 repo_black_pattern: ""    # This means empty list
 
