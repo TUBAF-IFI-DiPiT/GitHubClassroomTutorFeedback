@@ -12,7 +12,7 @@ tabulate = "*"
 jupyter = "*"
 nbconvert = "*"
 ipykernel = "*"
-github2pandas-manager = "*"
+github2pandas-manager = {ref = "main", git = "https://github.com/TUBAF-IFI-DiPiT/github2pandas_manager.git", editable = true}
 
 [dev-packages]
 
