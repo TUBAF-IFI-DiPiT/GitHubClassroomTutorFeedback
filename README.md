@@ -14,28 +14,26 @@ language: en
 This is a periodically updated summary of Github Classroom activity report covering the following repositories
 
 <!-- data-type="none" -->
-|    | Team name            | Repository URL                                                                                                                           |
-|---:|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------|
-|  0 | andre_und_sebastian  | [Link](https://api.github.com/repos/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-andre_und_sebastian)   |
-|  1 | andre_und_sebastian1 | [Link](https://api.github.com/repos/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-andre_und_sebastian-1) |
-|  2 | galina_und_jonas     | [Link](https://api.github.com/repos/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-galina_und_jonas)      |
-|  3 | nico_und_baldur      | [Link](https://api.github.com/repos/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-nico_und_baldur)       |
+|    | Team name              | Repository URL                                                                                                                 |
+|---:|:-----------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+|  0 | `andre_und_sebastian1` | [Link](https://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-andre_und_sebastian-1) |
+|  1 | `galina_und_jonas`     | [Link](https://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-galina_und_jonas)      |
+|  2 | `nico_und_baldur`      | [Link](https://github.com/Ifi-Softwareentwicklung-SoSe2021/softwareentwicklung_aufgabe3_sose2021_tutors-nico_und_baldur)       |
 
 ----------------------------------------------------- 
 
-Last update: 2022-05-30 17:43:16.512014
+Last update: 2022-05-31 08:07:55.529469
 
 ## Activity overview
 
 The individual projects can be characterized by the individual fingerprints summarizing the existence and counts of different Github concepts.
 
 <!-- data-type="none" -->
-|    | Team name            |   Commit count |   Issues |   PullRequests |   Releases |
-|---:|:---------------------|---------------:|---------:|---------------:|-----------:|
-|  0 | andre_und_sebastian  |              2 |        1 |              0 |          0 |
-|  1 | andre_und_sebastian1 |              5 |        2 |              1 |          1 |
-|  2 | galina_und_jonas     |              8 |        2 |              1 |          1 |
-|  3 | nico_und_baldur      |              8 |        2 |              1 |          1 |
+|    | Team name              |   Commit count |   Issues |   PullRequests |   Releases |
+|---:|:-----------------------|---------------:|---------:|---------------:|-----------:|
+|  0 | `andre_und_sebastian1` |              5 |        2 |              1 |          1 |
+|  1 | `galina_und_jonas`     |              8 |        2 |              1 |          1 |
+|  2 | `nico_und_baldur`      |              8 |        2 |              1 |          1 |
 
 ## Working time analysis
 
