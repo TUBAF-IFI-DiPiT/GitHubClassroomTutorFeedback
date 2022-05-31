@@ -59,7 +59,6 @@ if __name__ == "__main__":
     
     if "TOKEN" in os.environ:
         print("Token found!")
-        print(len(os.environ['TOKEN']))
     
     github_token = os.environ['TOKEN']
 
