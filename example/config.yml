@@ -33,6 +33,7 @@ processing_notebooks:
   - F_TimeStatistics.ipynb
   - F_ProjectOverview.ipynb
   - F_ProjektList.ipynb
+  - F_CollaborationRatio.ipynb
 
 #################################################################
 

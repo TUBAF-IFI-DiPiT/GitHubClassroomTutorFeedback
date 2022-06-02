@@ -32,3 +32,11 @@ The individual projects can be characterized by the individual fingerprints summ
 The students commited new versions of the repositories during the following hours:
 
 <F_TimeStatistics.png>
+
+## Collaboration Ratio
+
+The student commited new versions referencing similar files
+
+<!-- data-type="none" -->
+<F_CollaborationRatio.txt>
+

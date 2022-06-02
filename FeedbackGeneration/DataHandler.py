@@ -20,3 +20,4 @@ class DataHandler:
         self.raw_pdIssues = self.unpickle_file("Issues.p")
         self.raw_pdRepositories = self.unpickle_file("Repositories.p")
         self.raw_pdPullRequests = self.unpickle_file("PullRequests.p")
+        self.raw_pdUsers = self.unpickle_file("Users.p")
