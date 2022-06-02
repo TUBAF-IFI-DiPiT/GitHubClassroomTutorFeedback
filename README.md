@@ -22,7 +22,7 @@ This is a periodically updated summary of Github Classroom activity report cover
 
 ----------------------------------------------------- 
 
-Last update: 2022-05-31 08:07:55.529469
+Last update: 2022-06-02 09:32:25.266174
 
 ## Activity overview
 
@@ -40,3 +40,15 @@ The individual projects can be characterized by the individual fingerprints summ
 The students commited new versions of the repositories during the following hours:
 
 ![image](./example/notebooks/F_TimeStatistics.png)
+
+## Collaboration Ratio
+
+The student commited new versions referencing similar files
+
+<!-- data-type="none" -->
+|    | team                   | Orga                                           | author_A                                             | author_B                                          |
+|---:|:-----------------------|:-----------------------------------------------|:-----------------------------------------------------|:--------------------------------------------------|
+|  0 | `andre_und_sebastian1` | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['Task.md']                                          | nan                                               |
+|  1 | `galina_und_jonas`     | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config']                                      | ['team.config' 'CSharpBasics.md' 'HelloWorld.cs'] |
+|  2 | `nico_und_baldur`      | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config' 'CSharpBasics.md' 'CSharpBasics.txt'] | ['team.config']                                   |
+
