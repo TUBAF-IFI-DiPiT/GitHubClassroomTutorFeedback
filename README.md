@@ -22,7 +22,7 @@ This is a periodically updated summary of Github Classroom activity report cover
 
 ----------------------------------------------------- 
 
-Last update: 2022-06-02 09:43:10.367484
+Last update: 2022-06-15 10:35:59.437827
 
 ## Activity overview
 
@@ -49,6 +49,6 @@ The student commited new versions referencing similar files
 |    | team                   | Orga                                           | author_A                                             | author_B                                          |   CollaborationRatio |
 |---:|:-----------------------|:-----------------------------------------------|:-----------------------------------------------------|:--------------------------------------------------|---------------------:|
 |  0 | `andre_und_sebastian1` | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['Task.md']                                          | nan                                               |             0        |
-|  1 | `galina_und_jonas`     | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config']                                      | ['CSharpBasics.md' 'team.config' 'HelloWorld.cs'] |             0.333333 |
+|  1 | `galina_und_jonas`     | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config']                                      | ['team.config' 'CSharpBasics.md' 'HelloWorld.cs'] |             0.333333 |
 |  2 | `nico_und_baldur`      | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config' 'CSharpBasics.md' 'CSharpBasics.txt'] | ['team.config']                                   |             0.333333 |
 
