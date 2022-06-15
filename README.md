@@ -22,7 +22,7 @@ This is a periodically updated summary of Github Classroom activity report cover
 
 ----------------------------------------------------- 
 
-Last update: 2022-06-15 10:35:59.437827
+Last update: 2022-06-15 10:41:32.336261
 
 ## Activity overview
 
@@ -46,9 +46,9 @@ The students commited new versions of the repositories during the following hour
 The student commited new versions referencing similar files
 
 <!-- data-type="none" -->
-|    | team                   | Orga                                           | author_A                                             | author_B                                          |   CollaborationRatio |
-|---:|:-----------------------|:-----------------------------------------------|:-----------------------------------------------------|:--------------------------------------------------|---------------------:|
-|  0 | `andre_und_sebastian1` | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['Task.md']                                          | nan                                               |             0        |
-|  1 | `galina_und_jonas`     | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config']                                      | ['team.config' 'CSharpBasics.md' 'HelloWorld.cs'] |             0.333333 |
-|  2 | `nico_und_baldur`      | ['CSharpBasics.txt' 'README.md' 'team.config'] | ['team.config' 'CSharpBasics.md' 'CSharpBasics.txt'] | ['team.config']                                   |             0.333333 |
+|    | team                   | author_A                                             | author_B                                          |   CollaborationRatio |
+|---:|:-----------------------|:-----------------------------------------------------|:--------------------------------------------------|---------------------:|
+|  0 | `andre_und_sebastian1` | ['Task.md']                                          | nan                                               |             0        |
+|  1 | `galina_und_jonas`     | ['team.config']                                      | ['team.config' 'CSharpBasics.md' 'HelloWorld.cs'] |             0.333333 |
+|  2 | `nico_und_baldur`      | ['team.config' 'CSharpBasics.md' 'CSharpBasics.txt'] | ['team.config']                                   |             0.333333 |
 
